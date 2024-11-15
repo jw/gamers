@@ -1,8 +1,8 @@
 use crate::prelude::*;
 
+mod entity_render;
 mod map_render;
 mod player_input;
-mod entity_render;
 
 pub fn build_scheduler() -> Schedule {
     Schedule::builder()
