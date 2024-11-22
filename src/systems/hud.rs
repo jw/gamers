@@ -20,8 +20,7 @@ pub fn hud(ecs: &SubWorld) {
         0,
         format!(
             " Health: {} / {} ",
-            player_health.current,
-            player_health.max,
+            player_health.current, player_health.max,
         ),
         ColorPair::new(WHITE, BLACK),
     );
